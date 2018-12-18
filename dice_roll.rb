@@ -4,5 +4,5 @@
 
 def roll
   r = random.new
-  r.rand(1..)
+  r.rand(1...6)
 end
